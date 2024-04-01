@@ -1,9 +1,17 @@
-import pandas 
-print("1-0 Mrs. Karp")
+import pandas as pd
 
-cs= pandas.read_csv(customers-1000.csv)
+print("Rizzler is here")
 
-colmns = cs.columns.tolist()
+fl=pd.read.csv('customers-100.csv')
+cols=fl.columns.tolist()
 
-print(colms)
+name=fl[cols[2]].tolist()
 
+class rizz:
+	def __init__(self,name):
+		self.name=name
+		
+		
+pl =rizz(name[1])
+
+print(pl)
